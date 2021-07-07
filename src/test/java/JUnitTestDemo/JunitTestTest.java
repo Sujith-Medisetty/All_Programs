@@ -34,8 +34,10 @@ public class JunitTestTest {
 
 	@Test
 	public void testMul() {
-		int val=obj.mul(9, 6);
-		assert val>30:"Shoukd be greater than 30 buddy...";
+		int arr[]=obj.mul(10, 20);
+		for(int i:arr) {
+			assert i<4:"no";
+		}
 	}
 
 	@Test
